@@ -1,0 +1,25 @@
+.top {
+  position: relative;
+}
+input {
+  width: 35%;
+  height: 4vh;
+  border-radius: 20px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  padding-left: 1%;
+  font-size: medium;
+  font-family: sans-serif;
+}
+#profile {
+  display: flex;
+  justify-content: space-around;
+  top: 20%;
+  left: 80%;
+  position: absolute;
+  gap: 2%;
+}
+.side {
+  margin: 10%;
+}
