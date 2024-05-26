@@ -17,11 +17,11 @@ input {
   font-size: medium;
   font-family: sans-serif;
 }
-#profile {
+#right {
   display: flex;
   justify-content: space-around;
   top: 20%;
-  left: 90%;
+  left: 80%;
   position: absolute;
   gap: 2%;
 }
@@ -50,7 +50,7 @@ input {
 #top {
   position: absolute;
   top: 10%;
-  left: 20%;
+  left: 14%;
   width: 85%;
   height: 15%;
 }
@@ -74,4 +74,55 @@ input {
 #top :hover {
   background-color: black;
   color: white;
+}
+#profile {
+  width: 10vh;
+  height: 7vh;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.profile {
+  width: 10vh;
+  height: 7vh;
+  border-radius: 50%;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+  padding-left: 12.5%;
+  cursor: pointer;
+}
+b {
+  position: absolute;
+  top: 25%;
+  font-size: medium;
+  text-decoration: none;
+}
+#right :hover {
+  color: black;
+}
+.body {
+  display: flex;
+  justify-content: space-around;
+  top: 20%;
+  position: absolute;
+  gap: 2%;
+  position: absolute;
+  left: 20%;
+  margin-top: 2%;
+  width: 75%;
+  overflow: visible;
+  height: 100%;
+  cursor: pointer;
+}
+.body2 {
+  display: flex;
+  justify-content: space-around;
+  top: 60%;
+  position: absolute;
+  gap: 2%;
+  position: absolute;
+  left: 20%;
+  margin-top: 2%;
+  width: 75%;
+  overflow: visible;
+  height: 100%;
 }
