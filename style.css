@@ -127,6 +127,7 @@ b {
   width: 75%;
   overflow: visible;
   height: 100%;
+  cursor: pointer;
 }
 #image {
   width: min-content;
